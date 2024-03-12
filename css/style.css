@@ -1,5 +1,13 @@
   /* Create an accessible color palette using var()function */
   /* https://www.w3schools.com/css/css3_variables.asp */
+
+  :root {
+    --green: #00bf7d;
+  }
+
+  body {
+    font-family: "Nunito", sans-serif;
+  }
   
   form {
     display: grid;
@@ -11,7 +19,7 @@
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     color: #702082;
-    background: #CFC096;
+    background: var(--green);
   }
 
   .radio {
@@ -26,8 +34,8 @@
     padding: 10px;
     font-size: 18px;
     font-weight: bold;
-    background: #CFC096;
-    color: #9B9A6D;
+    background: #FFFFFF;
+    color: #000000;
   }
 
   #message {
